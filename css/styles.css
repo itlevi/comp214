@@ -1,0 +1,167 @@
+/* font-family: 'Ubuntu', sans-serif; */
+/* COLORS */
+/* #eeeeee - grey */
+/* #393e46 - black*/
+/* #76ead7 - blueish */
+/* #c4fb6d - greenish */
+
+/* Background Image by 
+Main Landing Page
+Marvin Meyer
+@marvelous */
+
+/* 
+Topic 1
+<span>Photo by <a href="https://unsplash.com/@alexkixa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+Alexandre Debiève</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
+
+/*
+Topic 2
+ Ilya Pavlov
+@ilyapavlov
+
+ */
+
+ /* 
+ Topic 3
+ Mathew Schwartz @cadop*/
+
+ /* 
+ Topic 4
+ Christopher Burns */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+    color: #222831;
+    box-sizing: border-box;
+}
+
+.main-background {
+    height: 100vh;
+    /* Currently in the CSS folder so we need to go one folder up and then into images folder with ../ */
+    background-image:
+         /* Gradiant from top left to bottom right */
+        linear-gradient(
+            to right bottom,
+            rgba(196, 251, 109, 0.8),
+            rgba(118, 234, 215, 0.8)
+        ), 
+        url('../img/main-bg.jpeg');
+    /* Will try and fit the full width of of the element */
+    background-size: cover;
+    /* Will keep the image anchored to the top of the page */
+    background-position: top;
+    position: relative;
+}
+
+.topic-1-bg {
+    height: 100vh;
+    /* Currently in the CSS folder so we need to go one folder up and then into images folder with ../ */
+    background-image:
+         /* Gradiant from top left to bottom right */
+        linear-gradient(
+            to right bottom,
+            rgba(196, 251, 109, 0.8),
+            rgba(118, 234, 215, 0.8)
+        ), 
+        url('../img/topic1-bg.jpg');
+    /* Will try and fit the full width of of the element */
+    background-size: cover;
+    /* Will keep the image anchored to the top of the page */
+    background-position: top;
+    position: relative;
+}
+
+.topic-2-bg {
+    height: 100vh;
+    /* Currently in the CSS folder so we need to go one folder up and then into images folder with ../ */
+    background-image:
+         /* Gradiant from top left to bottom right */
+        linear-gradient(
+            to right bottom,
+            rgba(196, 251, 109, 0.8),
+            rgba(118, 234, 215, 0.8)
+        ), 
+        url('../img/topic-2-bg.jpeg');
+    /* Will try and fit the full width of of the element */
+    background-size: cover;
+    /* Will keep the image anchored to the top of the page */
+    background-position: top;
+    position: relative;
+}
+
+.topic-3-bg {
+    height: 100vh;
+    /* Currently in the CSS folder so we need to go one folder up and then into images folder with ../ */
+    background-image:
+         /* Gradiant from top left to bottom right */
+        linear-gradient(
+            to right bottom,
+            rgba(196, 251, 109, 0.8),
+            rgba(118, 234, 215, 0.8)
+        ), 
+        url('../img/topic-3-bg.jpeg');
+    /* Will try and fit the full width of of the element */
+    background-size: cover;
+    /* Will keep the image anchored to the top of the page */
+    background-position: top;
+    position: relative;
+}
+
+.topic-4-bg {
+    height: 100vh;
+    /* Currently in the CSS folder so we need to go one folder up and then into images folder with ../ */
+    background-image:
+         /* Gradiant from top left to bottom right */
+        linear-gradient(
+            to right bottom,
+            rgba(196, 251, 109, 0.8),
+            rgba(118, 234, 215, 0.8)
+        ), 
+        url('../img/topic-4-bg.jpeg');
+    /* Will try and fit the full width of of the element */
+    background-size: cover;
+    /* Will keep the image anchored to the top of the page */
+    background-position: top;
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 100px;
+    opacity: 0.8;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.jumbotron {
+    background-color: #fff;
+    font-weight: 700;
+    opacity: 0.8;
+    /* width: 80%; */
+    margin: 0 auto;
+}
+
+#frame-01 {
+    width: 100%;
+    height: 1000px;
+}
+
+@media (max-width: 1028px) {
+
+    .resp-centre {
+        text-align: center;
+    }
+    
+
+}
